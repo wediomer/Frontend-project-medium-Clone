@@ -1,0 +1,162 @@
+
+
+/* body{
+    margin-left: 10px;
+} */
+.header a,.my,.im{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.header #logo {
+    float: left;
+}
+#write{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+#im{
+    font-size: 16px;
+}
+.header input{
+    margin-top: 15px;
+
+}
+#imge2{
+    margin-right: 80px;
+    float: right;
+}
+#wel{
+    margin-top: 160px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#wel h6,#imge{
+    float: left;
+}
+#imge{
+    margin-right: 10px;
+}
+#wel h1,p{
+    float: left;
+}
+.size{
+    float: left;
+    font-size: small ;
+}
+#wel #imge2{
+    float: right;
+}
+
+#size{
+    font-size: medium;
+}
+#imge2{
+    
+    float: left;
+}
+#wel1{
+    margin-top: 60px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#wel1 h6,#imge1{
+    float: left;
+}
+#imge1{
+    margin-right: 10px;
+}
+#wel1 ,p1{
+    float: left;
+    margin-bottom: 30px;
+}
+#wel1 #imge21{
+    float: right;
+}
+.size1{
+    font-size: small ;
+    float: left;
+    
+}
+#size1{
+    font-size: medium;
+}
+#imge21{
+    margin-left: 30px;
+    float: left;
+}
+#wel2{
+    margin-top: 60px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+#wel2 h6,#imge2{
+    float: left;
+}
+#imge2{
+    margin-right: 10px;
+}
+#wel2 ,p2{
+    float: left;
+}
+#wel2 #imge22{
+    float: right;
+}
+.size2{
+    font-size: small ;
+    float: left;
+}
+#size2{
+    font-size: medium;
+}
+#imge22{
+    margin-left: 100px;
+    float:right;
+}
+hr{
+    margin-top: 50px;
+    padding-left: 350;
+    padding-right: 350px;
+}
+#foot{
+    margin-top: 50px;
+    padding-left: 400px;
+    padding-right: 300px;
+}
+.insidef {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagef {
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+  }
+  
+  .contentf {
+    flex: 1; 
+   
+  }
+  #unfo{
+    margin-top: 50px;
+    
+  }
+  .fh{
+    margin-top: 50px;
+  
+  }
+  #icon2{
+    
+    margin-top: 100px;
+    padding-left: 400px;
+    padding-right: 500px;
+  }
+  #icon2 #sh2, #sh12, #sh22, #sh32 {
+    float:right;
+    margin-right: 10px;
+  }
+  #icon2 #hand2, #share2 {
+    margin-right: 10px;
+  }
+
+

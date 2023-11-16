@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <title>medium clone page2</title>
+        <link rel="stylesheet" href="medium2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="header">
+            <a href="articlePage.html" id="logo"><img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/medium_logo_icon_189223.png" width="50px" alt="logo"></a>
+            <div class="s by"><a href="articlePage.html"><img alt="Seid Ahmeddin" class="mt-2 " src="https://miro.medium.com/v2/resize:fill:64:64/0*MAsqiZw168HctjZf" width="32" height="32"></a></div>
+            <input class="form-control-sm" placeholder="search something" type="search">
+            <a href="articlePage.html" class="btn btn-secondary" id="write">Write
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
+                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
+                  </svg>
+              </a>
+          </div>
+          <hr>
+
+        <div id="parent">
+            <h1>Extending the Front-End Engineer role</h1>
+            <p style="font-size: large;">How to contribute outside your zone while being inside it</p>
+            
+            <div class="inside">
+                <div class="image">
+                    <a href="homePage.html"><img src="https://miro.medium.com/v2/resize:fill:88:88/0*TZUvQKtHecCYzzvP.jpg" width="44" height="44" id="pho"></a>
+                </div>
+                <div class="content">
+                  <a href="homePage.html" style="text-decoration: none;">Khaled Al-Ansari</a>
+                  <a href="homePage.html"><button style="border-style: none;">Follow</button></a>
+                  
+                  <h6>min read Jul 5</h6>
+                </div>
+                <!--  -->
+            
+            </div>
+           
+              </div>
+              <!-- <div id="icon">
+                <span>
+                    <img id="hand2" src="https://th.bing.com/th?id=OIP.GCMgIE0T5Gzrk4-K_yjMVgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="20" height="20" alt="clapping hands">
+                    <img id="share2" src="https://th.bing.com/th/id/OIP.cTdPBIrrDB0Df8EBlFM8CwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="20" height="20" alt="respond">
+               
+                    
+                   
+                   
+                    <img id="sh32" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPoA+gMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAABQYEAwL/2gAIAQEAAAAA0oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM9u0Pib29AePBQ9QAMZ981y6fGFpTNf3nJi6kzcewAeWJ3fhjdySpOrky9UZ31u5vptgAwWi4WpOfE6iDatEvN6LM6/tABzQPe/9Dgid9sJEuxTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACgICEAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/EAC0QAAICAgEBBQgCAwAAAAAAAAECAwQABRExBhIgQVIQEyEwMlFhcRSAQ2KB/9oACAEBAAE/AP7TEgAkkADqT8AMk3FCM8e+LfoZBsKdkhY5h3vSfFJLHEpeR1RfucO614PAkY/pcgt1rI5hmVvFPZgrKGmlVMG61/rfIpoZ178UiuPx87bbFrUxiQ8Qocg0VmVA8jiPLussUuHbhk9YzTX2nUwSnl0HKnwSyJDG8j/SoJOWLFnY2fuSeEQYmgnK8vMgOT17WvmXnlW6o65rbv8ANrhz9anh/BetCnWeX/ijES1sbB6vI3UnD2en4+E6c4j2tbZ80dcrzpZgjmTow+ZOSIJyOoicjNUiPsKwb1eyyiyVp1foY2zUEjY1vBuiRr5Pyy5oEQzzv5hPZu0Q0HJ6q652eJ99YH+ng7REhKn7fNAiCrK/mZPZ2hReKz5oCTSkH2m+YQCCCOQRlmCbX2/sVIZGyDeVHQe+5jfNluUmiMFYHhvrfNDUYym0eiAhPBbgFmtND6lyvPPr7Xe7vDLyrocTd0CnJd1P2K5s9n/N4SMFYhmkqNBA0rjhpfBt6htVD3By8Z7wzW7E0XPILRv1GHd68Jz33/QXL1yW/OG7v4RM19Y1KkcR+rq/zbNSC3H3JU/R8xknZ5/8c4yDQRg8zyl8VVRQqqAoHAA8N3W17vxcFX9Yw9npvKdMqaSCAh5T70+K7p69ol0Punwdn5/OdMpaqvTIf65PUf7kf//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AAH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AAB//9k=" width="20" height="20" alt="more">
+                    <img id="sh22" src="https://th.bing.com/th?q=AppleShare+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=ET&setlang=en&adlt=moderate&t=1&mw=247" width="20" height="20" alt="share">
+                </span>
+                
+            </div> -->
+            <div id="icon" class="border-top border-bottom py-3 mt-5 mb-5">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <img id="hand2" src="https://th.bing.com/th?id=OIP.GCMgIE0T5Gzrk4-K_yjMVgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="20" height="20" alt="clapping hands" class="me-2">
+                    <img id="share2" src="https://th.bing.com/th/id/OIP.cTdPBIrrDB0Df8EBlFM8CwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="20" height="20" alt="respond" class="me-2">
+                  </div>
+                  <div>
+                    <img id="sh32" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPoA+gMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAABQYEAwL/2gAIAQEAAAAA0oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM9u0Pib29AePBQ9QAMZ981y6fGFpTNf3nJi6kzcewAeWJ3fhjdySpOrky9UZ31u5vptgAwWi4WpOfE6iDatEvN6LM6/tABzQPe/9Dgid9sJEuxTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACgICEAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/EAC0QAAICAgEBBQgCAwAAAAAAAAECAwQABRExBhIgQVIQEyEwMlFhcRSAQ2KB/9oACAEBAAE/AP7TEgAkkADqT8AMk3FCM8e+LfoZBsKdkhY5h3vSfFJLHEpeR1RfucO614PAkY/pcgt1rI5hmVvFPZgrKGmlVMG61/rfIpoZ178UiuPx87bbFrUxiQ8Qocg0VmVA8jiPLussUuHbhk9YzTX2nUwSnl0HKnwSyJDG8j/SoJOWLFnY2fuSeEQYmgnK8vMgOT17WvmXnlW6o65rbv8ANrhz9anh/BetCnWeX/ijES1sbB6vI3UnD2en4+E6c4j2tbZ80dcrzpZgjmTow+ZOSIJyOoicjNUiPsKwb1eyyiyVp1foY2zUEjY1vBuiRr5Pyy5oEQzzv5hPZu0Q0HJ6q652eJ99YH+ng7REhKn7fNAiCrK/mZPZ2hReKz5oCTSkH2m+YQCCCOQRlmCbX2/sVIZGyDeVHQe+5jfNluUmiMFYHhvrfNDUYym0eiAhPBbgFmtND6lyvPPr7Xe7vDLyrocTd0CnJd1P2K5s9n/N4SMFYhmkqNBA0rjhpfBt6htVD3By8Z7wzW7E0XPILRv1GHd68Jz33/QXL1yW/OG7v4RM19Y1KkcR+rq/zbNSC3H3JU/R8xknZ5/8c4yDQRg8zyl8VVRQqqAoHAA8N3W17vxcFX9Yw9npvKdMqaSCAh5T70+K7p69ol0Punwdn5/OdMpaqvTIf65PUf7kf//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AAH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AAB//9k=" width="20" height="20" alt="more" class="me-2">
+                    <img id="sh22" src="https://th.bing.com/th?q=AppleShare+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=ET&setlang=en&adlt=moderate&t=1&mw=247" width="20" height="20" alt="share" class="me-2">
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div id="big-img">
+                <img alt=""  width="600" height="350" loading="eager" role="presentation" src="https://miro.medium.com/v2/resize:fit:875/1*mZlHcJ7pJtFcV0cnclYGLQ.jpeg">
+            </div>
+            <div id="para">
+            <p>
+                Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+                NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+                Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+
+<p>Let’s be honest, as an FEE you are already struggling with people thinking you are a Web Designer and people still need to know the difference
+ to understand you work. But seriously distinguishing yourself from Web Designers might be the first step in a career full of teammates who don’t
+  know your job, the second step is to contribute more and help them understand your needs and this is where extending you role is a must!</p>
+
+<p>Yes some web client side application require an experienced person to handle some serious interactions like interactive games with
+ all that graphics in it or financial apps with all of the real time details that comes with it shown in all of the charts across the app.
+  Though not all FEEs will work on such stuff and because of that they need to know some stuff that considered ambiguous for teammates who 
+  are helping delivering the front-end application since their point of view of the work is different but at the end the output is 
+related to the UI and other engineers tend not to like dealing with UI or anything close to it and that’s where you come in champ!</p>
+
+<p>
+    Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+    NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+    Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+
+<p>Let’s be honest, as an FEE you are already struggling with people thinking you are a Web Designer and people still need to know the difference
+to understand you work. But seriously distinguishing yourself from Web Designers might be the first step in a career full of teammates who don’t
+know your job, the second step is to contribute more and help them understand your needs and this is where extending you role is a must!</p>
+<img alt="devopps" width="700" height="239" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:875/1*XFpAq1iMdNtUxL4VhzxIwg.jpeg">
+
+<p>Yes some web client side application require an experienced person to handle some serious interactions like interactive games with
+all that graphics in it or financial apps with all of the real time details that comes with it shown in all of the charts across the app.
+Though not all FEEs will work on such stuff and because of that they need to know some stuff that considered ambiguous for teammates who 
+are helping delivering the front-end application since their point of view of the work is different but at the end the output is 
+related to the UI and other engineers tend not to like dealing with UI or anything close to it and that’s where you come in champ!</p>
+<img alt=""  width="700" height="525" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:875/1*yYkitaR24SuFNXYyTxL1xA.gif">
+
+<p>
+    Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+    NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+    Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+
+<p>Let’s be honest, as an FEE you are already struggling with people thinking you are a Web Designer and people still need to know the difference
+to understand you work. But seriously distinguishing yourself from Web Designers might be the first step in a career full of teammates who don’t
+know your job, the second step is to contribute more and help them understand your needs and this is where extending you role is a must!</p>
+
+<p>Yes some web client side application require an experienced person to handle some serious interactions like interactive games with
+all that graphics in it or financial apps with all of the real time details that comes with it shown in all of the charts across the app.
+Though not all FEEs will work on such stuff and because of that they need to know some stuff that considered ambiguous for teammates who 
+are helping delivering the front-end application since their point of view of the work is different but at the end the output is 
+related to the UI and other engineers tend not to like dealing with UI or anything close to it and that’s where you come in champ!</p>
+
+<p>
+Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+<img alt=""  width="700" height="360" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:875/1*rcyjwul4TRQVUVv20CMrTw.jpeg">
+<p>
+    Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+    NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+    Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+
+<p>Let’s be honest, as an FEE you are already struggling with people thinking you are a Web Designer and people still need to know the difference
+to understand you work. But seriously distinguishing yourself from Web Designers might be the first step in a career full of teammates who don’t
+know your job, the second step is to contribute more and help them understand your needs and this is where extending you role is a must!</p>
+
+<p>Yes some web client side application require an experienced person to handle some serious interactions like interactive games with
+all that graphics in it or financial apps with all of the real time details that comes with it shown in all of the charts across the app.
+Though not all FEEs will work on such stuff and because of that they need to know some stuff that considered ambiguous for teammates who 
+are helping delivering the front-end application since their point of view of the work is different but at the end the output is 
+related to the UI and other engineers tend not to like dealing with UI or anything close to it and that’s where you come in champ!</p>
+
+<p>
+Front end development had a massive rise in the past 5–6 years especially with the introduction of many great things in it like ES6, 
+NPM, Node.js, and cool frameworks like React and Angular, but all of this somehow still didn’t help to change the mentality of any 
+Front End Engineer (FEE) unfortunately and that’s why many are stuck rounding in the same circle.</p>
+</div>
+<hr>
+<div id="icon" class="border-top border-bottom py-3 mt-5 mb-5">
+    <div class="d-flex justify-content-between">
+      <div>
+        <img id="hand2" src="https://th.bing.com/th?id=OIP.GCMgIE0T5Gzrk4-K_yjMVgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="20" height="20" alt="clapping hands" class="me-2">
+        <img id="share2" src="https://th.bing.com/th/id/OIP.cTdPBIrrDB0Df8EBlFM8CwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="20" height="20" alt="respond" class="me-2">
+      </div>
+      <div>
+        <img id="sh32" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPoA+gMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAABQYEAwL/2gAIAQEAAAAA0oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM9u0Pib29AePBQ9QAMZ981y6fGFpTNf3nJi6kzcewAeWJ3fhjdySpOrky9UZ31u5vptgAwWi4WpOfE6iDatEvN6LM6/tABzQPe/9Dgid9sJEuxTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACgICEAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/EAC0QAAICAgEBBQgCAwAAAAAAAAECAwQABRExBhIgQVIQEyEwMlFhcRSAQ2KB/9oACAEBAAE/AP7TEgAkkADqT8AMk3FCM8e+LfoZBsKdkhY5h3vSfFJLHEpeR1RfucO614PAkY/pcgt1rI5hmVvFPZgrKGmlVMG61/rfIpoZ178UiuPx87bbFrUxiQ8Qocg0VmVA8jiPLussUuHbhk9YzTX2nUwSnl0HKnwSyJDG8j/SoJOWLFnY2fuSeEQYmgnK8vMgOT17WvmXnlW6o65rbv8ANrhz9anh/BetCnWeX/ijES1sbB6vI3UnD2en4+E6c4j2tbZ80dcrzpZgjmTow+ZOSIJyOoicjNUiPsKwb1eyyiyVp1foY2zUEjY1vBuiRr5Pyy5oEQzzv5hPZu0Q0HJ6q652eJ99YH+ng7REhKn7fNAiCrK/mZPZ2hReKz5oCTSkH2m+YQCCCOQRlmCbX2/sVIZGyDeVHQe+5jfNluUmiMFYHhvrfNDUYym0eiAhPBbgFmtND6lyvPPr7Xe7vDLyrocTd0CnJd1P2K5s9n/N4SMFYhmkqNBA0rjhpfBt6htVD3By8Z7wzW7E0XPILRv1GHd68Jz33/QXL1yW/OG7v4RM19Y1KkcR+rq/zbNSC3H3JU/R8xknZ5/8c4yDQRg8zyl8VVRQqqAoHAA8N3W17vxcFX9Yw9npvKdMqaSCAh5T70+K7p69ol0Punwdn5/OdMpaqvTIf65PUf7kf//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AAH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AAB//9k=" width="20" height="20" alt="more" class="me-2">
+        <img id="sh22" src="https://th.bing.com/th?q=AppleShare+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=ET&setlang=en&adlt=moderate&t=1&mw=247" width="20" height="20" alt="share" class="me-2">
+      </div>
+    </div>
+  </div><br><br><br>
+<footer id="foot">
+    <div class="insidef">
+        <div class="imagef">
+            <img alt="Khaled Al-Ansari"  src="https://miro.medium.com/v2/resize:fill:144:144/0*TZUvQKtHecCYzzvP.jpg" width="72" height="72">
+        </div>
+        <div class="contentf">
+            <p class="fh">Written by Khaled Al-Ansari</p>
+          <a href="#">Khaled Al-Ansari</a>
+          <button style="background-color: green; border-radius: 5px;">Follow</button><br>
+          
+         
+                </div>
+                    
+        </div>
+                    
+        <div id="unfo">
+            <a href="#">70 Followers</a>
+            
+        </div>
+        <p class="fh">Software Engineer @Amazon | Game Design Enthusiast | Open Source Supporter</p>   
+        <h2>More from Khaled Al-Ansari</h2> 
+        <span>
+            <img alt="Software Engineers Should Read Academic Papers"  src="https://miro.medium.com/v2/resize:fit:849/1*3ahumuAJdRDC-8HT6iOzZg.jpeg" width="300" height="200" >
+            <img alt="How TypeScript fixed ES6 messed up design"  src="https://miro.medium.com/v2/resize:fit:849/1*WQhlcWZJ8dGB12-JvfexHQ.png" width="300" height="200">
+        </span>  
+        
+                    
+        </div> 
+        <div id="paren">
+        <div class="imageff">
+           <span> <img alt="Khaled Al-Ansari"  src="https://miro.medium.com/v2/resize:fill:144:144/0*TZUvQKtHecCYzzvP.jpg" width="32" height="32" >
+            
+            <a href="homePage.htm" >Khaled Al-Ansari</a></span>
+            <h2>Software Engineers Should Read Academic Papers</h2>
+            <div class="ab q"><span>7 min read</span><span  aria-hidden="true"><span>·</span></span>5 days ago</div>
+        </div>
+        
+        <!-- <div class="contentff">
+           
+          
+          
+         
+                </div>  -->
+        
+       
+            <div class="imagefff">
+               <span> <img alt="Khaled Al-Ansari"  src="https://miro.medium.com/v2/resize:fill:144:144/0*TZUvQKtHecCYzzvP.jpg" width="32" height="32" >
+                
+                <a href="homePage.html">Khaled Al-Ansari</a></span>
+                <h2>How TypeScript fixed ES6 messed up design</h2>
+                <div class="ab q"><span>7 min read</span><span  aria-hidden="true"><span>·</span></span>5 days ago</div>
+            </div>
+           
+                </div>
+                <img alt="Make your bundles smaller by writing smarter" class="bg ve vf vg vh bw" src="https://miro.medium.com/v2/resize:fit:1358/1*q8QO9iauuDn8jat5-J4CcQ.jpeg" width="300px" height="200px">
+                <hr>
+                <div class="imagefff">
+                    <span> <img alt="Khaled Al-Ansari"  src="https://miro.medium.com/v2/resize:fill:144:144/0*TZUvQKtHecCYzzvP.jpg" width="32" height="32" >
+                     
+                     <a href="homePage.html">Khaled Al-Ansari</a></span>
+                     <h2>How TypeScript fixed ES6 messed up design</h2>
+                     <div class="ab q"><span>7 min read</span><span  aria-hidden="true"><span>·</span></span>5 days ago</div>
+                 </div>
+                 <div class="border-top border-bottom py-3 mt-5 mb-5">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <img id="hand2" src="https://th.bing.com/th?id=OIP.GCMgIE0T5Gzrk4-K_yjMVgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="20" height="20" alt="clapping hands" class="me-2">
+                        <img id="share2" src="https://th.bing.com/th/id/OIP.cTdPBIrrDB0Df8EBlFM8CwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="20" height="20" alt="respond" class="me-2">
+                      </div>
+                      <div>
+                        <img id="sh32" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPoA+gMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAABQYEAwL/2gAIAQEAAAAA0oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM9u0Pib29AePBQ9QAMZ981y6fGFpTNf3nJi6kzcewAeWJ3fhjdySpOrky9UZ31u5vptgAwWi4WpOfE6iDatEvN6LM6/tABzQPe/9Dgid9sJEuxTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACgICEAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/EAC0QAAICAgEBBQgCAwAAAAAAAAECAwQABRExBhIgQVIQEyEwMlFhcRSAQ2KB/9oACAEBAAE/AP7TEgAkkADqT8AMk3FCM8e+LfoZBsKdkhY5h3vSfFJLHEpeR1RfucO614PAkY/pcgt1rI5hmVvFPZgrKGmlVMG61/rfIpoZ178UiuPx87bbFrUxiQ8Qocg0VmVA8jiPLussUuHbhk9YzTX2nUwSnl0HKnwSyJDG8j/SoJOWLFnY2fuSeEQYmgnK8vMgOT17WvmXnlW6o65rbv8ANrhz9anh/BetCnWeX/ijES1sbB6vI3UnD2en4+E6c4j2tbZ80dcrzpZgjmTow+ZOSIJyOoicjNUiPsKwb1eyyiyVp1foY2zUEjY1vBuiRr5Pyy5oEQzzv5hPZu0Q0HJ6q652eJ99YH+ng7REhKn7fNAiCrK/mZPZ2hReKz5oCTSkH2m+YQCCCOQRlmCbX2/sVIZGyDeVHQe+5jfNluUmiMFYHhvrfNDUYym0eiAhPBbgFmtND6lyvPPr7Xe7vDLyrocTd0CnJd1P2K5s9n/N4SMFYhmkqNBA0rjhpfBt6htVD3By8Z7wzW7E0XPILRv1GHd68Jz33/QXL1yW/OG7v4RM19Y1KkcR+rq/zbNSC3H3JU/R8xknZ5/8c4yDQRg8zyl8VVRQqqAoHAA8N3W17vxcFX9Yw9npvKdMqaSCAh5T70+K7p69ol0Punwdn5/OdMpaqvTIf65PUf7kf//EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AAH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AAB//9k=" width="20" height="20" alt="more" class="me-2">
+                        <img id="sh22" src="https://th.bing.com/th?q=AppleShare+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-WW&cc=ET&setlang=en&adlt=moderate&t=1&mw=247" width="20" height="20" alt="share" class="me-2">
+                      </div>
+                    </div>
+                  </div>
+                <hr>
+                <a rel="noopener follow" style="border-radius: 5px solid gray;" href="homePage.html"><div>See all from <!-- -->Khaled Al-Ansari</div></a>
+                <hr>
+                <h2>Recommended from Medium</h2>
+                <span>
+                <img alt="Microservices: The Million-Dollar Mistake Your Company is Making" src="https://miro.medium.com/v2/resize:fit:1358/0*gee2b5NEwlWViv8j" width="300px" height="200px">
+                <img alt="Google Bard’s New Visual Feature is a Game Changer"  src="https://miro.medium.com/v2/resize:fit:1358/1*Pf9HR8JEtWJwkIkA_kcZsg.png" width="300px" height="200px">
+                </span>
+                <div><br><br>
+                <span> <img alt="Rico Fritzsche" src="https://miro.medium.com/v2/resize:fill:40:40/1*Y69NVWERXzc5GIVFDCMvgQ.jpeg" width="20" height="20">
+                     
+                    <a href="homePage.html">Love Sharma</a> <a href="homePage.html">In ByteByteGo System Design Alliance</a></span>
+                    </div>
+                    </footer>
+        
+    
+                
+            </footer>
+            
+        </div>
+        
+            
+        </div>
+    
+    </body>
+</html>
